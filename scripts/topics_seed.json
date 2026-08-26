@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "ptsd",
+    "name": "Post-Traumatic Stress Disorder (PTSD)",
+    "alt_names": [
+      "gangguan stres pascatrauma",
+      "trauma psikologis"
+    ],
+    "category": "trauma",
+    "summary": "PTSD adalah kondisi kecemasan yang bisa muncul setelah mengalami atau menyaksikan peristiwa traumatis, seperti kecelakaan, kekerasan, bencana alam, atau bullying berkepanjangan. Otak seolah terus mengalami kembali peristiwa itu, membuat penderitanya sulit merasa aman meski bahaya sudah lewat. PTSD bukan kelemahan mental — ini respons alami otak yang 'terjebak' dalam mode siaga.",
+    "signs_symptoms": [
+      "Kilas balik (flashback) atau mimpi buruk berulang tentang peristiwa traumatis",
+      "Mudah terkejut (startle), tegang, atau sulit tidur",
+      "Menghindari tempat, orang, atau pembicaraan yang mengingatkan pada trauma",
+      "Merasa mati rasa emosi atau terpisah dari orang lain",
+      "Pikiran negatif terus-menerus tentang diri sendiri atau dunia",
+      "Kesulitan berkonsentrasi dan mudah marah"
+    ],
+    "causes_risk_factors": "Tidak semua orang yang mengalami trauma pasti develop PTSD. Risiko meningkat bila: trauma berlangsung lama atau berulang, dukungan sosial minim setelah peristiwa, sudah punya riwayat kecemasan/depresi, atau mengalami stres berat tambahan setelah trauma.",
+    "coping_treatment": "Penanganan yang terbukti efektif antara lain terapi psikologi seperti CBT (Cognitive Behavioral Therapy) dan EMDR. Sehari-hari, rutinitas tidur yang stabil, olahraga ringan, jurnal menulis, dan latihan napas membantu menenangkan sistem saraf. Menghindari alkohol sebagai pelarian penting karena memperberat gejala dalam jangka panjang.",
+    "myths_facts": [
+      {
+        "myth": "PTSD cuma dialami tentara/perang",
+        "fact": "Siapa pun bisa mengalaminya — korban kecelakaan, kekerasan, bullying, bencana, bahkan penolakan berulang."
+      },
+      {
+        "myth": "Kalau cukup kuat, trauma akan hilang sendiri",
+        "fact": "PTSD adalah kondisi yang butuh penanganan; mencari bantuan adalah tindakan berani, bukan bukti lemah."
+      }
+    ],
+    "when_to_seek_help": "Jika gejala berlangsung lebih dari sebulan, mengganggu sekolah/kuliah/pekerjaan, atau kamu mulai menghindar dari banyak hal yang dulu menyenangkan — waktunya bicara dengan psikolog atau psikiater.",
+    "support_resources": [
+      {
+        "name": "SEJIWA Kemenkes RI",
+        "contact": "119 ext. 8",
+        "description": "Layanan konseling kesehatan mental gratis, 24 jam"
+      },
+      {
+        "name": "Guru BK / konselor kampus",
+        "contact": "-",
+        "description": "Langkah pertama yang dekat dan murah untuk mahasiswa/pelajar"
+      }
+    ],
+    "related_topic_slugs": [
+      "gangguan-kecemasan-umum-gad",
+      "panic-disorder"
+    ],
+    "sources": "WHO fact sheets, Kemenkes RI (disclaimer: draft AI, perlu review profesional sebelum publish)",
+    "language": "id",
+    "is_published": false
+  }
+]

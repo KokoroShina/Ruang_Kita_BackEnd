@@ -1,0 +1,63 @@
+{
+  "slug": "loneliness",
+  "name": "Loneliness",
+  "alt_names": [
+    "Kesepian",
+    "perasaan kesepian"
+  ],
+  "category": "other",
+  "summary": "Loneliness atau kesepian adalah pengalaman emosional subjektif: rasa tidak nyaman akibat jarak antara koneksi sosial yang kamu inginkan dan yang benar-benar kamu miliki. Kesepian adalah soal PERASAAN terhubung, bukan jumlah orang di sekitarmu — bisa merasa sepi di tengah kelas penuh, dan bisa juga nyaman sendirian di kamar. Ini bukan gangguan mental, melainkan sinyal manusiawi yang sangat umum (seperti lapar adalah sinyal butuh makan) — dan penting didengar, bukan dipermalukan.",
+  "signs_symptoms": [
+    "Merasa terputus atau 'tidak terlihat' walau sedang dikelilingi orang",
+    "Perasaan bahwa tidak ada yang benar-benar mengenalmu",
+    "Rindu kontak yang lebih dalam atau lebih sering daripada yang dimiliki sekarang",
+    "Sering membandingkan kehidupan sosialmu dengan orang lain, terutama versi media sosial",
+    "Mulai menghindari ajakan dan acara; rutinitas dan penampilan mulai terbengkalai",
+    "Tidur terganggu, mood rendah, atau energi drop yang menyertai rasa terpisah itu",
+    "Rasa sepi datang bergelombang, misalnya saat weekend atau hari libur panjang"
+  ],
+  "causes_risk_factors": "Kesepian sering dipicu transisi hidup yang mengacak-acak jaringan pertemanan: pindah kota, masuk kuliah, teman SMA yang mulai jarang kontak, atau lingkungan baru yang belum terasa 'punyamu'. Ada dua jenis yang bisa terjadi bersamaan: kesepian emosional (tidak punya satu orang yang benar-benar dekat) dan kesepian sosial (tidak punya komunitas/jaringan luas yang memberi rasa ikut serta). Perbandingan sosial di media sosial ikut memperparah, karena kita membandingkan keseharian kita dengan highlight orang lain. Yang penting dipahami: kesepian dan isolasi sosial saling memengaruhi dua arah — makin sepi, makin menarik diri, makin sepi — itulah kenapa memutus siklusnya sejak dini itu berharga.",
+  "coping_treatment": "Tips dari NHS Every Mind Matters yang selaras dengan bukti riset: jaga kontak kecil secara rutin — chat singkat ke teman lama pun berarti; gabung komunitas atau kelompok minat (offline maupun online) sekitar hal yang kamu sukai; lakukan aktivitas yang kamu nikmati secara 'keluar' — olahraga di luar, podcast, acara gratis di sekitar; ceritakan perasaanmu secara jujur pada satu orang aman, dan sengaja hindari membandingkan hidupmu dengan feed orang lain; coba membantu/volunteering — membantu ternyata meningkatkan wellbeing sekaligus membuka kontak baru; ajak satu orang pergi ke acara bersama. Riset menunjukkan program berbasis CBT yang bekerja mengubah CARA PANDANG terhadap relasi sama efektifnya dengan menambah jumlah kontak — jadi kalau kontak sudah banyak tapi tetap sepi, kerjakan pada persepsi dan kedalaman, bukan kuantitas. Bersabarlah: relasi dekat dibangun bertahap.",
+  "myths_facts": [
+    {
+      "myth": "Sendirian pasti berarti kesepian.",
+      "fact": "Tidak sama. Menyendiri secara sadar (solitude) bisa jadi menyegarkan. Kesepian adalah rasa defisit — dan banyak orang yang ramai agenda justru merasakannya."
+    },
+    {
+      "myth": "Kalau aku kesepian, berarti aku memang jelek secara sosial.",
+      "fact": "Kesepian adalah sinyal manusiawi yang sangat umum dan sangat dipengaruhi situasi (transisi, lingkungan baru), bukan vonis tentang kepribadianmu."
+    },
+    {
+      "myth": "Tambah followers dan grup chat, kesepian langsung hilang.",
+      "fact": "Kesepian mengikuti KUALITAS koneksi yang dipersepsikan, bukan jumlahnya. Jaringan luas tapi dangkal bisa membiarkan lubang kesepian emosional tetap terbuka."
+    }
+  ],
+  "when_to_seek_help": "Cari dukungan profesional bila rasa sepi berlangsung kronis dan mulai memberi makan stres, kecemasan, atau mood rendah; bila kamu menarik diri berkepanjangan dari sekolah/kuliah/orang-orang; atau bila rasa sepi disertai putus asa. Konseling dan CBT terbukti membantu. Dan jika muncul pikiran menyakiti atau mengakhiri diri, perlakukan sebagai darurat: hubungi SEJIWA 119 ext. 8 (gratis, 24 jam) sekarang.",
+  "support_resources": [
+    {
+      "name": "SEJIWA (Kemenkes RI)",
+      "contact": "119 ext. 8",
+      "description": "Layanan konseling kesehatan mental gratis, 24 jam — termasuk sekadar butuh diajak bicara"
+    },
+    {
+      "name": "Komunitas minat / UKM kampus / klub",
+      "contact": "-",
+      "description": "Cara paling alami membangun kontak berkualitas lewat minat bersama"
+    },
+    {
+      "name": "Psikolog / konselor",
+      "contact": "Puskesmas, klinik, atau layanan kesehatan kampus",
+      "description": "Bila kesepian kronis dan mulai memengaruhi mood serta fungsi harian"
+    }
+  ],
+  "related_topic_slugs": [
+    "social-isolation",
+    "social-withdrawal",
+    "fear-of-missing-out-fomo",
+    "social-comparison",
+    "major-depressive-disorder"
+  ],
+  "sources": "NHS — Loneliness, Every Mind Matters (https://www.nhs.uk/every-mind-matters/lifes-challenges/loneliness/); PMC — Are Loneliness and Social Isolation Equal Threats to Health and Well-Being? (https://pmc.ncbi.nlm.nih.gov/articles/PMC10400921/); National Academies — Social Isolation and Loneliness in Older Adults, ch. 2 (https://www.nationalacademies.org/read/25663/chapter/2)",
+  "language": "id",
+  "is_published": false
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "academic-stress",
+  "name": "Academic Stress",
+  "alt_names": [
+    "Stres akademik",
+    "tekanan akademik",
+    "stres sekolah/kuliah"
+  ],
+  "category": "trauma",
+  "summary": "Academic stress atau stres akademik adalah reaksi stres — respons tubuh dan pikiran yang wajar — ketika tuntutan dunia sekolah/kuliah (ujian, deadline, nilai, ekspektasi) terasa lebih besar daripada kapasitas yang dirasa tersedia saat itu. Ini bukan diagnosis dan bukan gangguan mental: dalam bentuk normalnya, stres naik menjelang ujian lalu turun setelahnya. Ia menjadi masalah layak ditangani bila berlangsung terus-menerus, jauh melebihi proporsinya, dan mulai melumpuhkan fungsi harian.",
+  "signs_symptoms": [
+    "Cemas atau tegang yang terkonsentrasi di sekitar ujian, nilai, atau deadline — lalu mereda setelah selesai",
+    "Gejala fisik menjelang ujian/sekolah: sakit kepala, nyeri perut, mual",
+    "Tidur dan nafsu makan bergeser saat periode sibuk",
+    "Prokrastinasi: menunda memulai tugas karena rasanya 'terlalu besar'",
+    "Sulit konsentrasi; pikiran melayang ke kekhawatiran nilai dan masa depan",
+    "Mudah marah atau merasa overwhelmed saat pekan padat",
+    "Belajar berlebihan sampai mengorbankan tidur dan istirahat sebagai upaya mengendalikan rasa cemas"
+  ],
+  "causes_risk_factors": "Faktor yang paling konsisten ditemukan riset lintas negara: tekanan ujian dan prestasi serta beban tugas yang tinggi. Studi pada remaja juga menemukan ekspektasi keluarga sebagai salah satu sumber tekanan terkuat, disusul tekanan teman sebaya (yang kian diperkuat media sosial), kondisi finansial, interaksi dengan guru, dan sistem pendidikan itu sendiri. Faktor individu ikut menentukan sensitivitasnya: perfeksionisme, kecenderungan cemas, dan cara menilai diri (self-concept). Perlu digarisbawahi: stres akademik ringan-sedang sesaat itu normal dan bahkan bisa memacu performa; yang dikaitkan riset dengan depresi dan kecemasan remaja adalah tekanan akademik yang kronis dan terus-menerus.",
+  "coping_treatment": "Strategi dengan dukungan riset terbaik: pecah tugas besar jadi langkah-langkah kecil konkret (tugas 'menulis skripsi' jadi 'hari ini cari 3 referensi'); pakai coping berorientasi masalah — rencana, jadwal, manajemen waktu, teknik belajar aktif — karena konsisten dikaitkan dengan distres lebih rendah dan hasil lebih baik; gunakan penilaian ulang positif (membingkai ulang makna situasi) dan regulasi emosi adaptif seperti olahraga; minta dukungan sosial — belajar bareng, cerita ke teman/orang tua/guru; jagalah dasar-dasarnya: tidur cukup, gerak, rutinitas — tidur kurang justru menurunkan kemampuan belajar; validasi stresmu tanpa memberi makan penghindaran (bolos/menunda memberi lega sesaat tapi membesarkan cemas); dan manfaatkan dukungan yang ada sedini mungkin — guru BK, konselor kampus, dosen pembimbing. Nilai usaha, bukan hanya hasil.",
+  "myths_facts": [
+    {
+      "myth": "Kalau stres soal sekolah, berarti mentalku bermasalah.",
+      "fact": "Cemas sesaat menjelang ujian itu normal secara perkembangan. Stres jadi kekhawatiran klinis hanya bila berlebihan, menetap, dan melumpuhkan fungsi."
+    },
+    {
+      "myth": "Cara tercepat hilangkan stres adalah menghindarinya — skip kelas, tunda tugas.",
+      "fact": "Penghindaran memberi lega sesaat tapi memperkuat kecemasan dan membuat tumpukan makin besar — siklus yang justru memperberat stres."
+    },
+    {
+      "myth": "Ngatur perasaan itu tanda lemah; yang kuat ya tahan saja.",
+      "fact": "Riset membedakan regulasi emosi adaptif (penilaian ulang, olahraga) dari maladaptif (menahan, venting tanpa arah). Mengelola emosi adalah keterampilan, bukan kelemahan."
+    }
+  ],
+  "when_to_seek_help": "Bicara dengan psikolog, konselor, atau guru BK bila stres tidak kunjung turun setelah beban selesai; bila muncul penolakan/bolos sekolah yang menetap, kehilangan tidur berkepanjangan, ledakan emosi berulang, tidak sanggup menikmati pergaulan, atau nilai anjlok drastis. Riset menunjukkan tekanan akademik kronis berkaitan konsisten dengan depresi, kecemasan, dan self-harm pada remaja — jadi stres yang menetap patut diseriusi, bukan dianggap drama. Jika muncul pikiran menyakiti diri, hubungi SEJIWA 119 ext. 8 (gratis, 24 jam) segera.",
+  "support_resources": [
+    {
+      "name": "Guru BK / Konselor kampus",
+      "contact": "-",
+      "description": "Langkah pertama paling dekat untuk membahas beban akademik"
+    },
+    {
+      "name": "SEJIWA (Kemenkes RI)",
+      "contact": "119 ext. 8",
+      "description": "Layanan konseling kesehatan mental gratis, 24 jam"
+    },
+    {
+      "name": "Psikolog / psikiater",
+      "contact": "Puskesmas, klinik, atau layanan kesehatan kampus",
+      "description": "Bila stres menetap, melumpuhkan fungsi, atau disertai gejala depresi/kecemasan"
+    }
+  ],
+  "related_topic_slugs": [
+    "burnout",
+    "test-anxiety",
+    "procrastination",
+    "perfectionism",
+    "generalized-anxiety-disorder"
+  ],
+  "sources": "Child Mind Institute — Academic Anxiety: When School Stress Becomes Too Much (https://childmind.org/article/understanding-academic-anxiety/); PMC — Academic Stress and Adolescent Mental Health: An MSEM Study (https://pmc.ncbi.nlm.nih.gov/articles/PMC8695784/); Taylor & Francis — University Students' Coping Strategies to Manage Stress: A Scoping Review (https://www.tandfonline.com/doi/full/10.1080/00131911.2024.2438888)",
+  "language": "id",
+  "is_published": false
+}

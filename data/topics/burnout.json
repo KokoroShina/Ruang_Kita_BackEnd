@@ -1,0 +1,69 @@
+{
+  "slug": "burnout",
+  "name": "Burnout",
+  "alt_names": [
+    "Kelelahan akibat kerja",
+    "burn-out",
+    "kejenuhan kerja"
+  ],
+  "category": "burnout",
+  "summary": "Burnout adalah sindrom yang muncul akibat stres kerja kronis yang tidak berhasil dikelola. WHO secara resmi mengklasifikasikannya di ICD-11 sebagai 'fenomena pekerjaan' (occupational phenomenon) — bukan penyakit atau gangguan mental. Burnout ditandai tiga hal: kelelahan energi yang dalam, sikap sinis atau menjaga jarak mental dari pekerjaan, dan menurunnya rasa efektif dalam bekerja. Pola yang sama bisa juga dialami pelajar/mahasiswa akibat stres akademik kronis — meski definisi resminya memang untuk konteks kerja. Penting dipahami: burnout bukan bukti kamu lemah; ini masalah lingkungan dan durasi stres yang tidak pernah benar-benar selesai.",
+  "signs_symptoms": [
+    "Lelah mendalam yang tidak pulih walau sudah libur atau tidur cukup",
+    "Sudah terasa terkuras bahkan sebelum hari kerja/kuliah dimulai",
+    "Muncul sikap sinis atau apatis: 'untuk apa sih semua ini?'",
+    "Menjaga jarak mental dari tugas, rekan kerja, atau teman kuliah; jadi iritabel dan dingin",
+    "Rasa efektivitas menurun: produktivitas drop, hasil terasa tidak pernah cukup bagus",
+    "Sulit konsentrasi dan mudah lupa hal-hal kecil",
+    "Gangguan tidur, sakit kepala, atau keluhan fisik berulang tanpa sebab medis jelas",
+    "Semakin sering absen atau mencari alasan untuk tidak masuk"
+  ],
+  "causes_risk_factors": "Burnout berakar pada ketidakcocokan antara orang dan lingkungan kerjanya yang berlarut-larut. Faktor-faktor yang paling sering dikaitkan: beban kerja berlebihan, minimnya dukungan dari atasan/rekan, sedikit kendali atau otonomi atas cara bekerja, kurangnya pengakuan atas usaha, lingkungan kerja yang tidak adil atau toksik, serta ketidakpastian masa depan yang berkepanjangan. Pada pelajar dan mahasiswa, pola serupa muncul lewat tumpukan tugas dan ujian, jadwal yang hampir tanpa jeda, tekanan kompetisi, minimnya ruang bernegosiasi, dan kecemasan soal masa depan karier. Yang penting: pertanyaannya bukan 'siapa yang lemah', melainkan 'apa di lingkungannya yang membuat stres tak pernah selesai'.",
+  "coping_treatment": "Karena sumbernya ada di lingkungan, pemulihan butuh dua arah. Secara individu: pasang batas jam kerja/belajar dan benar-benar melepas diri (unplugged) pada waktu istirahat; pilih pemulihan yang benar-benar mengembalikan energi (bukan sekadar scrolling); jaga hubungan dengan orang-orang yang mendukung; rawat dasar-dasarnya — tidur, makan, gerak. Secara situasional: negosiasikan ulang beban atau prioritas bila memungkinkan, mintalah klarifikasi ekspektasi, dan cari lingkungan/organisasi yang lebih sehat bila kondisinya memang tidak bisa diperbaiki. Bila gejala tetap bertahan meski istirahat dan batas sudah dipasang — atau muncul suasana hati rendah, putus asa, dan hilangnya kenikmatan — evaluasi ke psikolog/psikiater penting untuk membedakan dengan depresi atau gangguan penyesuaian, karena keduanya butuh penanganan berbeda.",
+  "myths_facts": [
+    {
+      "myth": "Burnout itu cuma capek biasa.",
+      "fact": "Capek biasa pulih setelah weekend atau liburan. Burnout justru didefinisikan oleh kelelahan yang bertahan meski waktu pemulihan normal sudah dijalani — plus sikap sinis dan penurunan efektivitas."
+    },
+    {
+      "myth": "Yang kena burnout berarti dia nggak kuat pegang tekanan.",
+      "fact": "WHO membingkai burnout sebagai hasil stres kerja KRONIS yang tidak berhasil dikelola — persoalannya ada pada lingkungan dan durasi, bukan kelemahan pribadi."
+    },
+    {
+      "myth": "Burnout sekarang resmi jadi penyakit mental.",
+      "fact": "Tidak. WHO menegaskan burnout adalah fenomena pekerjaan, bukan kondisi medis. Meski begitu, dampaknya nyata dan gejala yang menetap layak dievaluasi profesional."
+    },
+    {
+      "myth": "Tinggal liburan, langsung beres.",
+      "fact": "Liburan membantu, tapi riset APA menunjukkan cuti saja tidak menetralkan stresor kerja yang terus berulang. Tanpa membenahi sumbernya (beban, dukungan, kendali, pengakuan), burnout akan kembali."
+    }
+  ],
+  "when_to_seek_help": "Pertimbangkan bicara dengan psikolog atau konselor bila: kelelahan tidak kunjung pulih setelah berminggu-minggu istirahat yang wajar, sikap sinis dan jarak mental berlangsung lama, performa terus menurun tanpa penjelasan, atau tidur dan mood mulai rusak. Cari evaluasi profesional sesegera mungkin bila muncul gejala depresi — putus asa, tidak bisa menikmati apa pun, menarik diri — karena burnout berkepanjangan terkait dengan peningkatan risiko gangguan depresif. Jika muncul pikiran menyakiti atau mengakhiri diri, hubungi SEJIWA 119 ext. 8 (gratis, 24 jam) segera.",
+  "support_resources": [
+    {
+      "name": "SEJIWA (Kemenkes RI)",
+      "contact": "119 ext. 8",
+      "description": "Layanan konseling kesehatan mental gratis, 24 jam"
+    },
+    {
+      "name": "Konselor kampus / Guru BK",
+      "contact": "-",
+      "description": "Bantu memetakan beban, strategi pemulihan, dan rujukan bila perlu"
+    },
+    {
+      "name": "Psikolog / psikiater",
+      "contact": "Puskesmas, klinik, atau layanan kesehatan kampus",
+      "description": "Evaluasi membedakan burnout dengan depresi/gangguan lain"
+    }
+  ],
+  "related_topic_slugs": [
+    "academic-stress",
+    "emotional-exhaustion",
+    "chronic-stress",
+    "procrastination",
+    "major-depressive-disorder"
+  ],
+  "sources": "WHO — Burn-out an \"occupational phenomenon\": International Classification of Diseases (https://www.who.int/news/item/28-05-2019-burn-out-an-occupational-phenomenon-international-classification-of-diseases); WHO — Burn-out FAQ (https://www.who.int/standards/classifications/frequently-asked-questions/burn-out-an-occupational-phenomenon); APA — Employers need to focus on workplace burnout (https://www.apa.org/topics/healthy-workplaces/workplace-burnout)",
+  "language": "id",
+  "is_published": false
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "rumination",
+  "name": "Rumination",
+  "alt_names": [
+    "Ruminasi",
+    "pikiran negatif berputar",
+    "repetitive negative thinking"
+  ],
+  "category": "other",
+  "summary": "Rumination atau ruminasi adalah pola berpikir di mana pikiran negatif yang sama terus diputar ulang — 'kenapa ini terjadi padaku?', 'kenapa aku bilang begitu?' — tanpa pernah sampai pada solusi atau ketenangan. Psikologi menyebutnya repetitive negative thinking: bukan gangguan mental, melainkan pola pikir yang justru meningkatkan risiko depresi dan kecemasan bila dibiarkan menjadi kebiasaan. Rasanya seperti sedang menganalisis masalah dengan serius, padahal mirip mesin yang muter di tempat: banyak energi keluar, tidak ada kemajuan.",
+  "signs_symptoms": [
+    "Pikiran yang sama terus terulang tanpa sampai kesimpulan baru",
+    "Terjebak pertanyaan 'kenapa' (why me? kenapa aku bilang itu?) alih-alih 'apa yang bisa kulakukan'",
+    "Banyak 'mengunyah' pikiran di kepala, tapi tidak ada aksi atau rencana nyata",
+    "Mood malah makin turun semakin lama memikirkannya",
+    "Sulit konsentrasi; sering 'hilang' dari momen sekarang",
+    "Paling sering muncul saat sedang sendiri, santai, atau menjelang tidur",
+    "Merasa lelah mental setelah sesi 'overthinking' panjang tanpa hasil"
+  ],
+  "causes_risk_factors": "Ruminasi biasanya aktif saat mood sedang buruk atau setelah kejadian stres (pertengkaran, kesalahan di depan umum, hasil ujian). Beberapa hal yang dikaitkan: keyakinan terselubung bahwa 'memikirkan terus = sedang menyelesaikan masalah', jarak antara diri sekarang dan diri ideal, tujuan yang terasa macet, dan kebiasaan gaya merespons yang membentuk sejak lama. Riset menemukan korelasi kuat antara ruminasi dan worry (khawatir masa depan) — keduanya bentuk dari repetitive negative thinking. Perlu dibedakan: ruminasi memandang ke belakang (kejadian & perasaan lampau), worry memindai ke depan (ancaman yang belum terjadi).",
+  "coping_treatment": "Kuncinya bukan 'berhenti berpikir', melainkan mengubah hubunganmu dengan pikiran itu. Yang terbukti membantu: sadari 'ah, ini ruminasi lagi' lalu biarkan pikiran lewat tanpa dikejar (mindfulness dasar); ganti 'gigi persneling' dengan aktivitas yang benar-benar menyerap otak dan tubuh (jalan, rapikan kamar, bikin sesuatu); tantang isi pikirannya ala CBT — pisahkan mana asumsi, mana fakta; tulis pikiran yang berulang di kertas lalu simpan jauh untuk memberi jarak; jadwalkan 'worry time' harian 10 menit sehingga pikiran tak menduduki seharian; ambil satu aksi kecil konkret, atau tanya diri sendiri 'kalau temanku begini, apa yang akan kukatakan?'. Batasi co-rumination (membahas masalah yang sama berulang-ulang bareng teman tanpa arah solusi). Jalan santai ±30 menit di lingkungan hijau pun terbukti menurunkan ruminasi. Bila loop sudah mengganggu tidur dan fungsi harian, CBT (termasuk rumination-focused CBT) efektif.",
+  "myths_facts": [
+    {
+      "myth": "Aku cuma sedang menganalisis masalahku secara mendalam.",
+      "fact": "Rasanya seperti analisis, tapi riset menunjukkan ruminasi justru menurunkan kualitas pemecahan masalah, motivasi, dan konsentrasi — karena energinya habis untuk memutar ulang, bukan mencari jalan."
+    },
+    {
+      "myth": "Berarti semua refleksi diri itu buruk?",
+      "fact": "Tidak. Refleksi yang sehat itu spesifik, penuh rasa ingin tahu, dan berakhir di wawasan atau langkah ('besok aku coba begini'). Ruminasi abstrak, menghakimi diri, dan berakhir di mana-mana."
+    },
+    {
+      "myth": "Cukup distraksi sekali, langsung hilang.",
+      "fact": "Alihkan perhatian memang membantu sesaat, tapi kebiasaan ruminasi butuh keterampilan (mindfulness, restrukturisasi pikiran) dan kesabaran — bukan sekali tekan tombol diam."
+    }
+  ],
+  "when_to_seek_help": "Bicara dengan psikolog atau konselor bila loop pikiran ini sudah rutin mengganggu tidur, belajar/kerja, atau hubungan; atau hadir bersama suasana hati rendah, putus asa, atau cemas yang menetap — ruminasi bisa ikut memperparah depresi dan kecemasan, dan terapi terbukti membantu memutuskannya. Jika muncul pikiran menyakiti diri, jangan tunggu: hubungi SEJIWA 119 ext. 8 (gratis, 24 jam).",
+  "support_resources": [
+    {
+      "name": "Psikolog / konselor",
+      "contact": "Puskesmas, klinik, atau layanan kesehatan kampus",
+      "description": "CBT dan pendekatan serupa terbukti efektif memutus loop ruminasi"
+    },
+    {
+      "name": "Guru BK / Konselor kampus",
+      "contact": "-",
+      "description": "Langkah pertama yang ringan untuk mulai cerita"
+    },
+    {
+      "name": "SEJIWA (Kemenkes RI)",
+      "contact": "119 ext. 8",
+      "description": "Layanan konseling kesehatan mental gratis, 24 jam"
+    }
+  ],
+  "related_topic_slugs": [
+    "overthinking",
+    "catastrophizing",
+    "major-depressive-disorder",
+    "generalized-anxiety-disorder",
+    "academic-stress"
+  ],
+  "sources": "Smith & Alloy — A roadmap to rumination: a review of the causes and consequences of rumination (https://pmc.ncbi.nlm.nih.gov/articles/PMC2832862/); Cleveland Clinic — How To Stop Ruminating (https://health.clevelandclinic.org/rumination-and-the-cycle-of-negative-thinking); American Psychiatric Association — Rumination: A Cycle of Negative Thinking (https://www.psychiatry.org/news-room/apa-blogs/rumination-a-cycle-of-negative-thinking)",
+  "language": "id",
+  "is_published": false
+}

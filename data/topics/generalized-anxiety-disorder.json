@@ -1,0 +1,70 @@
+{
+  "slug": "generalized-anxiety-disorder",
+  "name": "Generalized Anxiety Disorder (GAD)",
+  "alt_names": [
+    "Gangguan Kecemasan Umum",
+    "GAD",
+    "gangguan cemas menyeluruh"
+  ],
+  "category": "anxiety",
+  "summary": "Generalized Anxiety Disorder (GAD) atau gangguan kecemasan umum adalah gangguan kecemasan klinis yang ditandai kekhawatiran berlebihan tentang banyak hal sehari-hari — sekolah, pekerjaan, keluarga, kesehatan, masa depan — yang terjadi hampir setiap hari selama minimal 6 bulan dan sulit dikendalikan. Berbeda dengan khawatir biasa, intensitasnya tidak proporsional dengan situasi dan cukup mengganggu aktivitas. Kabar baiknya, GAD tergolong kondisi yang bisa ditangani dan dikelola dengan penanganan yang tepat.",
+  "signs_symptoms": [
+    "Kekhawatiran berlebihan tentang banyak hal berbeda sekaligus, terjadi lebih banyak hari daripada tidak, selama minimal 6 bulan",
+    "Pikiran khawatir sulit dikendalikan atau dihentikan begitu muncul",
+    "Merasa gelisah, tegang, atau 'di atas pisau' hampir terus-menerus",
+    "Mudah lelah atau cepat kehabisan energi tanpa sebab yang jelas",
+    "Sulit berkonsentrasi; pikiran terasa kosong mendadak",
+    "Mudah tersinggung atau marah",
+    "Otot tegang, pegal-pegal, atau nyeri badan yang tidak jelas penyebabnya",
+    "Gangguan tidur: sulit memulai tidur, mudah terbangun, atau tidurnya tidak nyaman",
+    "Keluhan fisik seperti sakit perut, pusing, jantung berdebar, atau keringat berlebih padahal pemeriksaan fisik tidak menemukan penyakit"
+  ],
+  "causes_risk_factors": "Penyebab GAD belum sepenuhnya dipahami dan umumnya merupakan hasil interaksi banyak faktor, bukan satu sebab tunggal. Faktor yang dikaitkan antara lain: genetik dan kimia otak, riwayat peristiwa traumatis atau pengalaman buruk (kekerasan, kehilangan berat, lingkungan yang penuh tekanan), serta tekanan hidup yang menumpuk. Perempuan tercatat lebih berisiko dibanding laki-laki, dan gejalanya sering mulai muncul perlahan sejak usia remaja hingga dewasa awal. GAD juga sering muncul bersamaan dengan kondisi lain seperti depresi atau gangguan kecemasan lainnya. WHO memperkirakan sekitar 359 juta orang di dunia mengalami gangguan kecemasan (2021) — sekitar 4% populasi global — namun hanya sekitar 27% di antaranya yang mendapat penanganan, terutama karena stigma dan minimnya pemahaman.",
+  "coping_treatment": "GAD termasuk kondisi yang responsif terhadap penanganan. Terapi yang terbukti paling efektif adalah Cognitive Behavioral Therapy (CBT) — membantu mengenali dan meluruskan pola pikir yang memicu kecemasan — serta ACT (Acceptance and Commitment Therapy). Untuk kasus sedang-berat, psikiater dapat meresepkan obat seperti SSRI/SNRI yang biasanya butuh beberapa minggu untuk ber efek penuh; obat penenang benzodiazepin umumnya tidak direkomendasikan jangka panjang karena berisiko ketergantungan. Yang bisa dilakukan sendiri sebagai pelengkap (bukan pengganti) terapi: mengurangi kafein, olahraga rutin walau ringan, jam tidur dan makan yang stabil, latihan napas lambat, relaksasi otot progresif, mindfulness singkat harian, membatasi alkohol, serta belajar mengenali GAD agar kekhawatiran tidak diperlakukan sebagai kelemahan diri.",
+  "myths_facts": [
+    {
+      "myth": "Khawatir terus-menerus itu cuma sifatku; artinya aku orangnya bijak dan teliti.",
+      "fact": "Kalau kekhawatiran terjadi hampir setiap hari selama 6 bulan atau lebih, sulit dikendalikan, dan mengganggu aktivitas, itu sudah memenuhi ambang GAD — kondisi medis yang bisa ditangani, bukan sekadar sifat."
+    },
+    {
+      "myth": "Diamkan saja, lama-lama hilang sendiri.",
+      "fact": "Menurut WHO, gejala gangguan kecemasan cenderung menetap tanpa penanganan. Menunda bantuan justru memperpanjang penderitaan."
+    },
+    {
+      "myth": "Cemas berarti aku lemah atau kurang berusaha.",
+      "fact": "GAD muncul dari interaksi faktor biologis, psikologis, dan sosial — siapa pun bisa mengalaminya. Ini bukan soal kelemahan karakter."
+    },
+    {
+      "myth": "Dokter bilang fisikku sehat, berarti keluhanku nggak nyata.",
+      "fact": "Sakit perut, pusing, jantung berdebar, dan lelah memang gejala kecemasan yang diakui secara medis. Tubuh sungguh merespons kecemasan, jadi keluhan itu nyata."
+    }
+  ],
+  "when_to_seek_help": "Bicara dengan psikolog, psikiater, atau dokter bila: kekhawatiran terasa berlebihan dan sulit dikontrol, berlangsung sebagian besar hari selama 6 bulan atau lebih, atau sudah mengganggu sekolah, pekerjaan, tidur, dan hubungan. Mulai dari tenaga kesehatan terdekat (puskesmas, guru BK, konselor kampus) untuk dirujuk lebih lanjut — semakin dini, semakin mudah dikelola. Jika muncul pikiran untuk mengakhiri hidup, jangan tunggu: hubungi SEJIWA 119 ext. 8 (gratis, 24 jam) atau orang terpercaya terdekat.",
+  "support_resources": [
+    {
+      "name": "SEJIWA (Kemenkes RI)",
+      "contact": "119 ext. 8",
+      "description": "Layanan konseling kesehatan mental gratis, 24 jam"
+    },
+    {
+      "name": "Guru BK / Konselor kampus",
+      "contact": "-",
+      "description": "Langkah pertama yang dekat dan terjangkau bagi pelajar dan mahasiswa"
+    },
+    {
+      "name": "Psikolog / psikiater",
+      "contact": "Puskesmas, klinik, atau layanan kesehatan kampus",
+      "description": "Penilaian diagnosis dan rencana penanganan (terapi dan/atau obat)"
+    }
+  ],
+  "related_topic_slugs": [
+    "panic-disorder",
+    "social-anxiety-disorder",
+    "major-depressive-disorder",
+    "rumination",
+    "academic-stress"
+  ],
+  "sources": "NIMH — Generalized Anxiety Disorder: What You Need to Know (https://www.nimh.nih.gov/health/publications/generalized-anxiety-disorder-gad); WHO — Anxiety disorders fact sheet (https://www.who.int/news-room/fact-sheets/detail/anxiety-disorders)",
+  "language": "id",
+  "is_published": false
+}

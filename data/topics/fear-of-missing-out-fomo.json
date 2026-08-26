@@ -1,0 +1,64 @@
+{
+  "slug": "fear-of-missing-out-fomo",
+  "name": "Fear of Missing Out (FOMO)",
+  "alt_names": [
+    "FOMO",
+    "takut ketinggalan momen",
+    "ketakutan tertinggal pengalaman"
+  ],
+  "category": "other",
+  "summary": "FOMO (fear of missing out) adalah fenomena psikologis berupa kegelisahan menyebar bahwa orang lain sedang menjalani pengalaman menyenangkan yang tidak kamu ikuti, plus dorongan untuk terus-menerus terhubung dan tahu apa yang sedang mereka lakukan. FOMO bukan diagnosis atau gangguan mental — ia dikonseptualisasi dalam riset (Przybylski dkk., 2013) sebagai perasaan yang berakar pada kebutuhan dasar manusia untuk terhubung. Media sosial tidak menciptakan FOMO dari nol, tapi membuatnya nyaris 24 jam nonstop karena kita terus melihat 'yang terlewat'.",
+  "signs_symptoms": [
+    "Ngecek dan refresh media sosial paksa, hampir refleks",
+    "Gelisah, cemas, atau 'gagal fokus' saat offline atau tidak memegang HP",
+    "Iri, menyesal, atau merasa gagal setelah scrolling lihat highlight orang lain",
+    "Gejala fisik ringan saat membandingkan diri: dada sesak, perut tegang, sakit kepala",
+    "Selalu bilang 'iya' ke semua ajakan karena takut ketinggalan — lalu kelelahan sendiri",
+    "Sulit hadir di momen yang sedang berlangsung; sibuk merekam/menposting-nya",
+    "Terseret scrolling berjam-jam walau awalnya cuma niat lihat sebentar"
+  ],
+  "causes_risk_factors": "Riset mengaitkan FOMO dengan beberapa hal: kebutuhan psikologis dasar yang kurang terpenuhi (rasa otonomi, kompetensi, dan keterhubungan), penggunaan media sosial yang pasif dan berat, konsep diri dan harga diri yang sedang goyah, serta kesepian — studi longitudinal pada mahasiswa menemukan kesepian memprediksi FOMO, yang kemudian memprediksi penggunaan medsos yang problematik. Remaja dan dewasa muda adalah kelompok paling terdampak, karena usia ini adalah masa 'mencari tempat di dunia'. Perlu dicatat: eksperimen menunjukkan efek dosis yang menarik — berhenti total 7 hari terbukti menurunkan FOMO, sementara blokir notifikasi parsial atau batasan 72 jam kadang justru menaikkannya; artinya batasan yang dipikirkan matang lebih efektif daripada separuh-setengah.",
+  "coping_treatment": "Yang membantu berdasarkan bukti dan sumber klinis: kenali rasanya dan pasang batasan yang utuh — timer aplikasi, zona bebas HP (mis. kamar tidur), atau jeda media sosial yang benar-benar penuh; identifikasi pemicu personalmu (akun tertentu? event tertentu?) dan tangani kebutuhan di baliknya; lakukan values check — tuliskan apa yang benar-benar membuat hidupmu bermakna dan bangun identitasmu di luar layar; reality-check: feed adalah potongan terbaik saja dari hidup orang lain, kamu membandingkan behind-the-scenes-mu dengan trailer mereka; ganti kebiasaan lurk dengan kontak langsung — DM temannya, ajak ketemu, daripada menonton cerita mereka dari jauh; praktikkan JOMO (joy of missing out): nikmati momen yang tidak diposting. Bila FOMO mulai mengganggu tidur, studi, atau hubungan, terapi seperti CBT membantu — dan bila disertai rasa kehilangan kendali atas pemakaian medsos, itu patut dievaluasi sebagai problematic social media use.",
+  "myths_facts": [
+    {
+      "myth": "Semua orang memang sedang hidup lebih seru dari aku.",
+      "fact": "Feed sistematis hanya menampilkan irisan terbaik kehidupan orang lain. Kamu membandingkan hidup lengkapmu dengan cuplikan sorotan mereka — perbandingan yang tidak apple-to-apple."
+    },
+    {
+      "myth": "FOMO artinya aku suka seru-seruan dan sayang teman-temanku.",
+      "fact": "Minat sehat itu memacu dan puas setelah ikut serta. FOMO digerakkan oleh rasa absen dan perbandingan, tidak pernah kenyang walau sudah ikut semua."
+    },
+    {
+      "myth": "Ah, FOMO cuma hal remeh anak remaja.",
+      "fact": "Ini konstruk yang diteliti serius (ratusan studi) dan konsisten dikaitkan dengan wellbeing yang lebih rendah serta penggunaan platform yang problematik."
+    }
+  ],
+  "when_to_seek_help": "Pertimbangkan bicara dengan psikolog atau konselor bila kebiasaan ngecek dan membandingkan diri sudah mengganggu tidur, belajar/kerja, olahraga, atau relasi; bila FOMO berjalan seiring gejala kecemasan atau mood rendah; atau bila kamu merasa kehilangan kendali atas pemakaian medsosmu. Pendekatan terapi seperti CBT dan terapi interpersonal terbukti membantu. Bila muncul pikiran menyakiti diri, hubungi SEJIWA 119 ext. 8 (gratis, 24 jam) segera.",
+  "support_resources": [
+    {
+      "name": "Psikolog / konselor",
+      "contact": "Puskesmas, klinik, atau layanan kesehatan kampus",
+      "description": "Bila kebiasaan digital sudah mengganggu fungsi dan mood harian"
+    },
+    {
+      "name": "Guru BK / Konselor kampus",
+      "contact": "-",
+      "description": "Langkah awal yang ringan untuk membahas pola pemakaian medsos"
+    },
+    {
+      "name": "SEJIWA (Kemenkes RI)",
+      "contact": "119 ext. 8",
+      "description": "Layanan konseling kesehatan mental gratis, 24 jam"
+    }
+  ],
+  "related_topic_slugs": [
+    "social-comparison",
+    "loneliness",
+    "problematic-social-media-use",
+    "digital-stress",
+    "social-media-envy"
+  ],
+  "sources": "Groenestein et al. — Fear of Missing Out: A Scoping Review, PLOS ONE 2024 (https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0308643); Cleveland Clinic — The Psychology Behind FOMO (https://health.clevelandclinic.org/understanding-fomo)",
+  "language": "id",
+  "is_published": false
+}

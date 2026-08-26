@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "napas-478",
+    "title": "Teknik Napas 4-7-8 untuk Menenangkan Diri",
+    "summary": "Latihan pernapasan sederhana 2 menit untuk meredakan kecemasan mendadak.",
+    "content_body": "Duduk nyaman, punggung tegak. Tarik napas lewat hidung selama 4 hitungan, tahan 7 hitungan, hembuskan pelan lewat mulut selama 8 hitungan. Ulangi 4 siklus. Teknik ini memperlambat detak jantung dan memberi sinyal aman ke otak.",
+    "content_type": "exercise",
+    "topics": ["anxiety", "stress"],
+    "duration_minutes": 2,
+    "is_published": true,
+    "source_url": null,
+    "language": "id"
+  },
+  {
+    "slug": "box-breathing",
+    "title": "Box Breathing: Napas Kotak ala Atlet",
+    "summary": "Pola napas 4-4-4-4 yang dipakai atlet & militer untuk fokus di bawah tekanan.",
+    "content_body": "Tarik napas 4 detik, tahan 4 detik, hembus 4 detik, diam 4 detik. Ulangi 5 menit. Cocok dilakukan sebelum ujian atau presentasi.",
+    "content_type": "exercise",
+    "topics": ["anxiety", "burnout"],
+    "duration_minutes": 5,
+    "is_published": true,
+    "source_url": null,
+    "language": "id"
+  },
+  {
+    "slug": "jurnal-gratitude-harian",
+    "title": "Jurnal Syukur Harian: 3 Hal Kecil",
+    "summary": "Kebiasaan menulis 3 hal yang bersyukur tiap malam terbukti mengangkat mood dalam 2 minggu.",
+    "content_body": "Setiap malam sebelum tidur, tulis tiga hal — sekecil apa pun — yang hari ini kamu syukurin. Bisa makanan enak, chat teman, atau langit sore yang bagus. Konsistensi lebih penting daripada kedalaman.",
+    "content_type": "exercise",
+    "topics": ["mood", "wellbeing"],
+    "duration_minutes": 5,
+    "is_published": true,
+    "source_url": null,
+    "language": "id"
+  },
+  {
+    "slug": "mengenali-pemicu-overthinking",
+    "title": "Mengenali Pemicu Overthinking-mu",
+    "summary": "Artikel singkat: pola umum overthinking pada anak muda dan cara menyadarinya lebih dulu.",
+    "content_body": "Overthinking sering dipicu oleh: kelelahan, media sosial menjelang tidur, dan ketidakpastian (hasil ujian, balasan chat). Mulai catat kapan pikiranmu berputar — polanya akan kelihatan dalam seminggu. Kesadaran adalah langkah pertama sebelum teknik apa pun bekerja.",
+    "content_type": "article",
+    "topics": ["anxiety", "mood"],
+    "duration_minutes": 4,
+    "is_published": true,
+    "source_url": null,
+    "language": "id"
+  },
+  {
+    "slug": "grounding-54321",
+    "title": "Grounding 5-4-3-2-1 Saat Panik",
+    "summary": "Teknik sensory cepat untuk kembali ke saat ini saat kecemasan melanda.",
+    "content_body": "Sebutkan dalam hati: 5 hal yang bisa kamu LIHAT, 4 yang bisa kamu RABA, 3 yang bisa kamu DENGAR, 2 yang bisa kamu CIUM, 1 yang bisa kamu RASAKAN. Ulangi bila perlu.",
+    "content_type": "exercise",
+    "topics": ["anxiety", "trauma"],
+    "duration_minutes": 3,
+    "is_published": true,
+    "source_url": null,
+    "language": "id"
+  }
+]

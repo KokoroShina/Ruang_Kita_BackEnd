@@ -1,0 +1,69 @@
+{
+  "slug": "anorexia-nervosa",
+  "name": "Anorexia Nervosa",
+  "alt_names": [
+    "Anoreksia",
+    "gangguan makan anorexia nervosa"
+  ],
+  "category": "eating",
+  "summary": "Anorexia nervosa adalah gangguan makan klinis yang serius: seseorang membatasi makanan secara ekstrem karena ketakutan intens terhadap kenaikan berat badan dan/atau cara pandang yang terdistorsi terhadap tubuhnya sendiri — bahkan saat beratnya sudah berbahaya rendah, ia masih bisa merasa 'gemuk'. Anorexia bukan gaya hidup, bukan diet ekstrem, dan bukan pilihan; ini penyakit serius yang dapat mengancam nyawa. Namun dengan penanganan profesional sedini mungkin, pemulihan sepenuhnya sangat mungkin terjadi.",
+  "signs_symptoms": [
+    "Membatas makan secara ekstrem: melewatkan waktu makan, porsi sangat kecil, atau menolak makanan yang dianggap 'membuat gemuk'",
+    "Ketakutan intens terhadap kenaikan berat badan, bahkan saat berat badan sudah kurang",
+    "Cara pandang terdistorsi terhadap bentuk tubuh — merasa gemuk padahal tidak",
+    "Olahraga berlebihan atau paksaan bergerak untuk 'membakar' kalori",
+    "Ritual makan yang kaku: memotong makanan sangat kecil, makin lama makin lambat, atau menghindari makan bersama orang lain",
+    "Sering menimbang badan dan memandang penurunan berat sebagai pencapaian; menyangkal bahwa berat rendah itu masalah",
+    "Berbohong tentang apa/yang berapa yang dimakan; menyembunyikan perilaku makan",
+    "Gejala fisik: sering kedinginan, pusing, lelah, rambut rontok, kulit kering, tangan-kaki dingin, sembelit, atau (pada remaja putri) haid berhenti/terlambat",
+    "Memakai pakaian longgar untuk menyembunyikan bentuk tubuh atau penurunan berat"
+  ],
+  "causes_risk_factors": "Seperti gangguan makan lain, anorexia tidak punya satu sebab tunggal. Riset menunjuk kombinasi faktor genetik, biologis, psikologis, dan sosial. Beberapa hal yang dikaitkan: usia mulai yang sering jatuh di masa remaja hingga dewasa awal, adanya gangguan mental lain yang menyertai (terutama depresi dan kecemasan), fokus berlebihan pada berat badan/bentuk tubuh/kendali atas makanan, serta budaya dan media yang menyanjung ketipisan. Penting: anorexia bisa dialami siapa pun — segala gender, latar belakang, dan ukuran tubuh. Orang yang tampak 'sehat' atau kurus secara alami pun bisa sangat sakit.",
+  "coping_treatment": "Anorexia memerlukan penanganan profesional — tidak bisa disembuhkan dengan kemauan keras, nasihat 'ya udah makan dong', atau tips diet. Standar penanganannya adalah kombinasi psikoterapi (terapi bicara) dengan pemulihan nutrisi dan kenaikan berat badan yang dipantau medis. Untuk remaja, terapi keluarga (family-based treatment) adalah pilihan lini pertama dan terbukti memperbaiki hasil pemulihan; pada dewasa tersedia CBT, MANTRA, SSCM, dan terapi psikodinamik fokal. Tim medis akan memantau komplikasi fisik — rapuhnya tulang, gangguan jantung, anemia — dan sebagian kasus berat perlu rawat inap. Suplemen vitamin dan saran ahli gizi melengkapi terapi, tetapi nasihat gizi saja tanpa terapi psikologis tidak cukup untuk pulih. Semakin dini perawatan dimulai, semakin besar peluang pulih penuh.",
+  "myths_facts": [
+    {
+      "myth": "Anorexia cuma soal penampilan dan ingin terlihat ramping kayak model.",
+      "fact": "Ini penyakit serius yang digerakkan ketakutan, distorsi cara pandang, dan interaksi faktor biologis-psikologis-sosial. NIMH menegaskan gangguan makan bukan pilihan, melainkan penyakit yang bisa fatal."
+    },
+    {
+      "myth": "Tinggal suruh makan, kan gampang. Dia cuma manja atau pilih-pilih makanan.",
+      "fact": "Perilaku makan pada anorexia digerakkan oleh ketakutan dan dorongan penyakit yang sangat kuat. Pemulihan butuh penanganan profesional — perintah 'makan saja' justru sering memperdalam rasa malu dan penyembunyian."
+    },
+    {
+      "myth": "Hanya cewek yang kurus yang bisa kena anorexia.",
+      "fact": "Siapa pun bisa mengalaminya — laki-laki, perempuan, segala ukuran tubuh dan latar belakang. Banyak penderita justru tampak 'normal' secara berat badan padahal sangat sakit di dalam."
+    },
+    {
+      "myth": "Dia nggak pernah bilang ada masalah, berarti aman.",
+      "fact": "Menzangkal bahwa berat badan rendah itu bermasalah justru salah satu gejala intinya. Tingkat keparahan dinilai dari kondisi medis, bukan dari seberapa besar seseorang mengakuinya."
+    }
+  ],
+  "when_to_seek_help": "Datangi dokter atau psikolog secepatnya begitu ada pembatasan makan yang menetap, penurunan berat badan dramatis, ketakukan intens pada kenaikan berat, atau obsesi pada berat/bentuk tubuh yang mengganggu hidup sehari-hari — NHS menyarankan periksakan diri WALAU masih ragu apakah ini benar-benar anorexia. Penanganan dini memberi peluang pulih terbaik dan mencegah kerusakan permanen (tulang, jantung). Tanda bahaya yang butuh pertolongan medis segera: berat sangat rendah dan terus turun, pingsan atau pusing hebat, detak jantung sangat lambat, atau muncul pikiran menyakiti/mengakhiri diri — untuk yang terakhir, hubungi SEJIWA 119 ext. 8 (24 jam) tanpa menunggu.",
+  "support_resources": [
+    {
+      "name": "SEJIWA (Kemenkes RI)",
+      "contact": "119 ext. 8",
+      "description": "Layanan konseling kesehatan mental gratis, 24 jam"
+    },
+    {
+      "name": "Psikolog / psikiater / dokter",
+      "contact": "Puskesmas, klinik, atau layanan kesehatan kampus",
+      "description": "Anorexia butuh penanganan tim: terapi plus pemantauan kondisi fisik"
+    },
+    {
+      "name": "Guru BK / Konselor kampus",
+      "contact": "-",
+      "description": "Bisa membantu memulai percakapan dan merujuk ke layanan yang tepat"
+    }
+  ],
+  "related_topic_slugs": [
+    "body-dissatisfaction",
+    "bulimia-nervosa",
+    "perfectionism",
+    "major-depressive-disorder",
+    "generalized-anxiety-disorder"
+  ],
+  "sources": "NIMH — Eating Disorders: About More Than Food (https://www.nimh.nih.gov/health/publications/eating-disorders); NHS — Anorexia nervosa: Symptoms (https://www.nhs.uk/mental-health/conditions/anorexia/symptoms/); NHS — Anorexia nervosa: Treatment (https://www.nhs.uk/mental-health/conditions/anorexia/treatment/)",
+  "language": "id",
+  "is_published": false
+}

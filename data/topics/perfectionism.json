@@ -1,0 +1,68 @@
+{
+  "slug": "perfectionism",
+  "name": "Perfectionism",
+  "alt_names": [
+    "Perfeksionisme",
+    "sifat perfeksionis"
+  ],
+  "category": "personality",
+  "summary": "Perfectionism atau perfeksionisme adalah pola kepribadian berupa penetapan standar yang sangat tinggi dan mengikat nilai diri pada pencapaiannya — bukan diagnosis atau gangguan mental. Dalam bentuk sehat, ia tampak sebagai tanggung jawab dan kepedulian pada kualitas. Dalam bentuk tidak sehat (maladaptive perfectionism), kesalahan sekecil apa pun terasa seperti katastropik, kepuasan tidak pernah datang, dan harga diri sepenuhnya bergantung pada hasil. Riset membaginya menjadi dua sisi: perfectionistic strivings (dorongan berprestasi tinggi) dan perfectionistic concerns (takut gagal, cemas soal kesalahan) — sisi kedualah yang konsisten dikaitkan dengan dampak buruk.",
+  "signs_symptoms": [
+    "Standar pribadi yang ekstrem — selalu merasa harus lebih dari 100%",
+    "Reaksi keras terhadap kesalahan kecil yang bahkan tidak diperhatikan orang lain",
+    "Pola pikir hitam-putih: apa pun di bawah sempurna terhitung gagal",
+    "Prokrastinasi atau malah menunda total karena takut hasilnya tidak sempurna",
+    "Tidak pernah puas walau sudah berhasil; sulit relaks atau menikmati capaian",
+    "Harga diri sepenuhnya terikat pada pencapaian dan persetujuan orang lain",
+    "Butuh keteraturan dan kontrol berlebihan; gelisah saat rencana bergeser",
+    "Menuntut kesempurnaan pada orang lain sehingga hubungan jadi tegang"
+  ],
+  "causes_risk_factors": "Perfeksionisme dibentuk dari kombinasi banyak hal. Yang paling sering dikaitkan riset: pola asuh yang kritis atau bertekanan tinggi (meta-analisis Curran & Hill menemukan perfeksionisme generasi muda meningkat seiring naiknya ekspektasi orang tua), keyakinan bahwa orang lain menuntut kita sempurna (socially prescribed perfectionism), budaya kompetisi dan individualisme, perbandingan sosial yang diperkuat media sosial, serta rasa 'nilainya hanya jika berprestasi'. Estimasi yang dikutip APA Monitor (Flett dkk., 2016) menyebut sekitar 25–30% anak dan remaja menunjukkan tingkat perfeksionisme signifikan. Perlu digarisbawahi: punya standar tinggi bukan penyakit — yang menjadi masalah adalah kekakuannya dan harga diri yang runtuh saat hasil tidak sempurna.",
+  "coping_treatment": "Yang terbukti membantu melonggarkan perfeksionisme tidak sehat: definisikan secara sadar apa itu 'cukup baik' untuk tiap tugas — tidak semua hal layak diberi bobot sama. Lakukan eksperimen perilaku: sengaja biarkan satu hal kecil tidak sempurna, lalu amati bahwa dunia tidak runtuh. Tantang pola hitam-putih dengan pikiran realistis ('ini belum maksimal, tapi sudah layak'). Gunakan time-boxing untuk memutus lingkaran mengerjakan-ulang tanpa henti. Latih self-compassion — bicara pada dirimu seperti bicara pada sahabat. Geser target dari 'sempurna' menjadi 'healthy striving': mengejar keunggulan sambil menerima bahwa ketidaksempurnaan itu bagian dari manusia. Kurangi perbandingan di media sosial. Bangun rasa berharga yang tidak tergantung prestasi: relasi hangat, membantu orang lain, hobi tanpa skor. Bila pola ini mengakar dan mengganggu, terapi psikologi — terutama CBT — memiliki bukti intervensi yang baik.",
+  "myths_facts": [
+    {
+      "myth": "Jadi perfeksionis artinya aku orang yang berprestasi tinggi.",
+      "fact": "Ingin unggul dan butuh sempurna itu dua hal berbeda. 'Healthy strivers' bisa berprestasi sambil bangkit dari kegagalan; perfeksionisme tidak sehat justru sering berujung prokrastinasi, kelelahan, dan tidak pernah puas."
+    },
+    {
+      "myth": "Perfeksionisme itu selalu jelek dan harus dihilangkan.",
+      "fact": "Sisi dorongan berprestasi (strivings) bisa positif. Yang konsisten memprediksi dampak buruk adalah sisi kecemasannya: takut gagal, terpikirkan terus kesalahan, dan takut dinilai buruk."
+    },
+    {
+      "myth": "Perfeksionisme bikin performaku makin bagus.",
+      "fact": "Dalam jangka panjang justru sering sebaliknya: takut salah membuat menunda, rigid, dan mudah burnout. Kualitas kerja terbaik biasanya datang dari standar tinggi yang lentur, bukan sempurna-kaku."
+    },
+    {
+      "myth": "Perfeksionisme cuma urusan diriku sendiri.",
+      "fact": "Bentuk other-oriented (menuntut orang lain sempurna) membuat orang di sekitar terus kecewa dan hubungan jadi renggang."
+    }
+  ],
+  "when_to_seek_help": "Bicara dengan psikolog atau konselor bila perfeksionisme sudah memengaruhi harga diri, tidur, mood, atau fungsi harian — misalnya: tak pernah puas walau terus berprestasi, menunda penting karena takut tidak sempurna, menghukum diri atas kesalahan kecil, atau jadi takut mencoba hal baru. Waspadai tumpang tindihnya dengan kecemasan, gangguan makan, dan burnout; riset jangka panjang mengaitkan socially prescribed perfectionism dengan depresi, kecemasan, hingga pikiran bunuh diri — bila muncul pikiran menyakiti diri, hubungi SEJIWA 119 ext. 8 (24 jam) segera.",
+  "support_resources": [
+    {
+      "name": "Psikolog / konselor",
+      "contact": "Puskesmas, klinik, atau layanan kesehatan kampus",
+      "description": "Terapi (mis. CBT) untuk melonggarkan standar kaku dan pola pikir all-or-nothing"
+    },
+    {
+      "name": "Konselor kampus / Guru BK",
+      "contact": "-",
+      "description": "Titik awal ringan untuk membahas tekanan prestasi"
+    },
+    {
+      "name": "SEJIWA (Kemenkes RI)",
+      "contact": "119 ext. 8",
+      "description": "Layanan konseling kesehatan mental gratis, 24 jam"
+    }
+  ],
+  "related_topic_slugs": [
+    "impostor-phenomenon",
+    "academic-stress",
+    "procrastination",
+    "anorexia-nervosa",
+    "generalized-anxiety-disorder"
+  ],
+  "sources": "APA Monitor — Perfectionism and the High-Stakes Culture of Success (https://www.apa.org/monitor/2024/10/antidote-achievement-culture); APA — Young Adults Are More Perfectionistic Than Ever Before (https://www.apa.org/news/press/releases/2026/05/young-adults-perfectionistic); Cleveland Clinic — Am I a Perfectionist? 5 Traits and Signs (https://health.clevelandclinic.org/signs-of-perfectionism)",
+  "language": "id",
+  "is_published": false
+}

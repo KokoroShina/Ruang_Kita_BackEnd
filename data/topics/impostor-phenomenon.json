@@ -1,0 +1,69 @@
+{
+  "slug": "impostor-phenomenon",
+  "name": "Impostor Phenomenon",
+  "alt_names": [
+    "Fenomena impostor",
+    "impostor syndrome",
+    "sindrom penipu"
+  ],
+  "category": "personality",
+  "summary": "Impostor phenomenon (populer disebut impostor syndrome) adalah pola pikir di mana seseorang terus-menerus meragukan kemampuannya dan merasa seperti 'penipu' — meskipun ada bukti nyata bahwa ia kompeten dan berhasil. Prestasi selalu dijelaskan dengan gladi rezeki, kebetulan, atau kebaikan orang lain, dan inti ketakutannya adalah suatu saat 'tertangkap basah' bahwa dirinya ternyata tidak sehebat yang dikira orang. Ini fenomena psikologis, bukan diagnosis atau gangguan mental — dan dialami banyak sekali orang, justru termasuk mereka yang berprestasi.",
+  "signs_symptoms": [
+    "Sukses selalu diatribusikan ke luck, kebetulan, timing, atau kebaikan orang lain — bukan kemampuan sendiri",
+    "Sulit menerima pujian, hadiah, atau penghargaan; merasa tidak layak menerimanya",
+    "Meremehkan capaian sendiri: 'ah, itu mah gampang, siapa pun bisa'",
+    "Takut gagal atau takut 'tertangkap' bahwa dirinya ternyata tidak mampu",
+    "Cemas berlebihan saat dinilai, presentasi, atau menghadapi evaluasi",
+    "Overworking: kerja/latihan berlebihan untuk 'membuktikan diri' — atau prokrastinasi lalu persiapan kilat",
+    "Berani tidak mengambil peluang: tidak mendaftar, tidak angkat tangan, padahal punya kemampuan",
+    "Terus membandingkan diri dan pencapaian dengan orang lain"
+  ],
+  "causes_risk_factors": "Tidak ada satu sebab pasti, namun beberapa hal sering berkaitan: transisi ke lingkungan baru (masuk kuliah, magang, kerja pertama, komunitas baru), pola asuh dengan tekanan prestasi tinggi, kebiasaan atribusi (sukses dikreditkan ke faktor luar, kegagalan ke diri sendiri), perbandingan sosial yang diperkuat media sosial yang sarat highlight, serta merasa 'berbeda' atau minoritas di lingkungannya (mahasiswa pertama di keluarganya yang kuliah, pindah kota, dsb.) — yang membuat rasa 'aku nggak pantas di sini' semakin kuat. Studi yang dirujuk Cleveland Clinic menyebut hingga 82% orang pernah mengalami perasaan seperti ini — artinya ini jauh lebih umum daripada yang dikira.",
+  "coping_treatment": "Beberapa cara yang terbukti membantu melonggarkan pola ini: pisahkan PERASAAN dari FAKTA — cari bukti konkret kalau kamu 'penipu'; biasanya tidak ada. Buat 'arsip bukti': catat pencapaian, simpan pesan apresiasi, dan baca ulang saat ragu. Cek label pikiran dua menit: ini fakta, perasaan, atau ketakutan? Ceritakan ke teman dekat atau mentor — kerahasiaan justru memberi makan pola ini, dan kamu akan kaget banyak orang merasakan hal sama. Lakukan 'langkah berani mikro': kirim email itu, bertanya di kelas, mulai lima menit dulu — aksi nyata adalah penangkal terbaik bagi rasa palsu. Kurangi perbandingan sosial, terutama di media sosial, dan latih self-compassion. Bila pola ini mengakar dan mengganggu hidup, terapi psikologi (termasuk pendekatan CBT) sangat membantu merombak cara pandang terhadap diri sendiri.",
+  "myths_facts": [
+    {
+      "myth": "Impostor syndrome itu penyakit mental resmi.",
+      "fact": "Bukan. Cleveland Clinic menegaskan ini bukan diagnosis medis — ini pola pikir dan pengalaman yang umum dialami, bukan gangguan."
+    },
+    {
+      "myth": "Kalau aku merasa kayak penipu, berarti memang aku penipu.",
+      "fact": "Perasaan bukan bukti. Ini 'pola berpikir', bukan data tentang kemampuanmu — dan justru orang yang benar-benar tidak mampu jarang meragukan dirinya."
+    },
+    {
+      "myth": "Ini cuma dialami cewek.",
+      "fact": "Konsepnya memang lahir dari studi pada perempuan berprestasi tahun 1978, tapi kini terbukti dialami semua gender dan kalangan."
+    },
+    {
+      "myth": "Nanti hilang sendiri begitu aku cukup sukses.",
+      "fact": "Perasaan ini justru sering muncul lagi di setiap panggung baru: naik semester, dapat magang impian, promosi. Kuncinya mengelola pola pikirnya, bukan menunggu level sukses tertentu."
+    }
+  ],
+  "when_to_seek_help": "Bicara dengan konselor atau psikolog bila rasa 'tidak pantas' ini sudah konstan dan melelahkan: cemas hebat tiap kali dinilai, mulai menghindari peluang penting, bekerja berlebihan sampai kelelahan (burnout), atau tidur dan mood ikut terganggu. Riset mengaitkan impostor feelings dengan gejala kecemasan dan depresi — bukan berarti otomatis jadi diagnosis, tapi sinyal kuat bahwa berbagi dengan profesional akan meringankan. Jika muncul pikiran menyakiti diri, hubungi SEJIWA 119 ext. 8 (24 jam) segera.",
+  "support_resources": [
+    {
+      "name": "Konselor kampus / Guru BK",
+      "contact": "-",
+      "description": "Tempat aman memulai percakapan tentang rasa tidak pantas dan tekanan prestasi"
+    },
+    {
+      "name": "Psikolog",
+      "contact": "Puskesmas, klinik, atau layanan kesehatan kampus",
+      "description": "Terapi untuk merombak pola pikir yang sudah mengganggu kehidupan"
+    },
+    {
+      "name": "SEJIWA (Kemenkes RI)",
+      "contact": "119 ext. 8",
+      "description": "Layanan konseling kesehatan mental gratis, 24 jam"
+    }
+  ],
+  "related_topic_slugs": [
+    "perfectionism",
+    "low-self-esteem",
+    "social-comparison",
+    "academic-stress",
+    "generalized-anxiety-disorder"
+  ],
+  "sources": "Cleveland Clinic — A Psychologist Explains How to Deal With Imposter Syndrome (https://health.clevelandclinic.org/a-psychologist-explains-how-to-deal-with-imposter-syndrome); APA — The Impostor Phenomenon (https://www.apa.org/pubs/books/impostor-phenomenon); UMass Lowell — Imposter Syndrome for Students (https://www.uml.edu/equity-inclusion/students/imposter-syndrome.aspx)",
+  "language": "id",
+  "is_published": false
+}

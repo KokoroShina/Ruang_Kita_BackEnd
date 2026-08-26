@@ -1,0 +1,71 @@
+{
+  "slug": "major-depressive-disorder",
+  "name": "Major Depressive Disorder (MDD)",
+  "alt_names": [
+    "Depresi klinis",
+    "Depresi mayor",
+    "gangguan depresif mayor"
+  ],
+  "category": "mood",
+  "summary": "Major Depressive Disorder (MDD) atau depresi klinis adalah gangguan mental yang umum terjadi, ditandai suasana hati murung, kosong, atau mudah tersinggung — dan/atau hilangnya minat serta kenikmatan pada hal-hal yang dulu disukai — hampir setiap hari selama minimal dua minggu. Depresi memengaruhi cara seseorang berpikir, tidur, makan, dan menjalankan aktivitas sehari-hari. Ini adalah penyakit sungguhan dengan gejala yang nyata, bukan kelemahan atau hal yang bisa dihilangkan sekadar 'senyum-syum'. Dengan penanganan yang tepat, sebagian besar orang dapat pulih.",
+  "signs_symptoms": [
+    "Suasana hati murung, sedih mendalam, kosong, atau mudah tersinggung hampir setiap hari selama minimal dua minggu",
+    "Hilangnya minat atau kenikmatan pada aktivitas yang dulu menyenangkan (anhedonia)",
+    "Gangguan tidur: insomnia atau justru tidur berlebihan",
+    "Nafsu makan atau berat badan berubah signifikan tanpa sengaja diet",
+    "Lelah terus-menerus; tugas-tugas kecil terasa butuh tenaga ekstra",
+    "Sulit berkonsentrasi, lambat berpikir, atau sulit mengambil keputusan",
+    "Merasa tidak berharga, bersalah berlebihan, atau terus menerus menyalahkan diri sendiri",
+    "Pesimis atau putus asa tentang masa depan",
+    "Pikiran tentang kematian atau mengakhiri hidup",
+    "Pada remaja, depresi sering tampak sebagai mudah marah atau meledak-ledak, bukan sekadar sedih"
+  ],
+  "causes_risk_factors": "Tidak ada satu sebab tunggal depresi. Penelitian menunjukkan perpaduan faktor biologis, genetik, psikologis, dan lingkungan berperan. Beberapa faktor yang dikaitkan: riwayat keluarga dengan depresi, peristiwa hidup berat (kehilangan orang terkasih, kekerasan, pengangguran, trauma), penyakit fisik jangka panjang, kurangnya aktivitas fisik, serta penggunaan alkohol atau zat. Depresi lebih sering dilaporkan pada perempuan, dan episode pertama sering muncul di usia remaja hingga usia 20-30an — usia yang persis menjadi target Ruang Kita. WHO memperkirakan sekitar 332 juta orang di dunia hidup dengan depresi. Penting dipahami: depresi juga bisa muncul tanpa alasan yang jelas sama sekali.",
+  "coping_treatment": "Menurut WHO, penanganan lini pertama depresi adalah psikoterapi — antara lain behavioral activation (menjadwalkan ulang aktivitas yang memberi makna), CBT, dan terapi interpersonal — yang tersedia secara individual maupun kelompok, tatap muka maupun daring. Obat antidepresan dapat ditambahkan untuk depresi sedang-berat atas resep dan pemantauan dokter, tetapi tidak diperlukan untuk kasus ringan; WHO menegaskan antidepresan tidak boleh dipakai pada anak-anak dan bukan pilihan pertama untuk remaja sehingga selalu butuh evaluasi dokter jiwa. Hal-hal yang terbukti membantu sebagai bagian pemulihan: tetap melakukan aktivitas yang dulu dinikmati walau 'paksa pelan-pelan', menjaga hubungan dan tidak mengisolasi diri, olahraga teratur, rutinitas tidur dan makan yang stabil, serta menghindari alkohol dan zat sebagai pelarian. Meminta bantuan adalah bagian dari pengobatan, bukan tanda kalah.",
+  "myths_facts": [
+    {
+      "myth": "Depresi itu cuma sedih berlebihan; cukup pikir positif dan bersyukur.",
+      "fact": "Depresi adalah penyakit dengan gejala nyata pada suasana hati, tidur, energi, nafsu makan, dan cara berpikir. Nasihat 'pikir positif' saja tidak menyembuhkannya, seperti nasihat tersenyum tidak menyembuhkan pneumonia."
+    },
+    {
+      "myth": "Kalau mau berusaha, pasti bisa bangkit sendiri. Itu tanda malas.",
+      "fact": "NHS menegaskan depresi adalah 'penyakit sungguhan dengan gejala sungguhan'. Malas adalah pilihan; depresi membuat hal-hal kecil terasa mustahil justru karena adanya penyakitnya."
+    },
+    {
+      "myth": "Pasti ada alasan besar di baliknya (putus cinta, gagal ujian). Kalau nggak ada, berarti bukan depresi.",
+      "fact": "Peristiwa berat bisa memicu, tetapi depresi juga bisa muncul tanpa pemicu yang jelas karena keterlibatan banyak faktor biologis dan psikologis."
+    },
+    {
+      "myth": "Obat antidepresan adalah solusi untuk semua orang, termasuk remaja.",
+      "fact": "WHO menyebut terapi psikologis adalah lini pertama; obat tidak wajib untuk depresi ringan, tidak boleh untuk anak-anak, dan pada remaja hanya dipertimbangkan dengan kehati-hatian ekstra oleh dokter."
+    }
+  ],
+  "when_to_seek_help": "Segera bicara dengan psikolog, psikiater, atau dokter bila suasana hati rendah atau hilangnya minat berlangsung hampir setiap hari lebih dari dua minggu dan mengganggu sekolah, kerja, atau hubungan. Jangan menunggu 'sampai cukup parah' — semakin dini ditangani, semakin cepat pemulihan. Ini penting banget: jika muncul pikiran bahwa hidup tidak berharga atau ingin mengakhiri hidup, perlakukan sebagai keadaan darurat — hubungi SEJIWA 119 ext. 8 (gratis, 24 jam) sekarang juga, atau ceritakan kepada orang dewasa yang kamu percaya.",
+  "support_resources": [
+    {
+      "name": "SEJIWA (Kemenkes RI)",
+      "contact": "119 ext. 8",
+      "description": "Layanan konseling kesehatan mental gratis, 24 jam — untuk kondisi genting maupun sekadar butuh didengarkan"
+    },
+    {
+      "name": "Into The Light Indonesia",
+      "contact": "intothelight.id",
+      "description": "Komunitas nirlaba pencegahan bunuh diri; edukasi dan panduan mencari bantuan"
+    },
+    {
+      "name": "Guru BK / Konselor kampus",
+      "contact": "-",
+      "description": "Titik awal yang dekat dan terjangkau bagi pelajar dan mahasiswa"
+    }
+  ],
+  "related_topic_slugs": [
+    "generalized-anxiety-disorder",
+    "anhedonia",
+    "rumination",
+    "loneliness",
+    "burnout"
+  ],
+  "sources": "WHO — Depressive disorder (depression) fact sheet (https://www.who.int/news-room/fact-sheets/detail/depression); NHS — Clinical depression overview (https://www.nhs.uk/mental-health/conditions/clinical-depression/overview/); NIMH — Depression (https://www.nimh.nih.gov/health/topics/depression)",
+  "language": "id",
+  "is_published": false
+}
