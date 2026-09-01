@@ -8,3 +8,13 @@
 {"timestamp": "2026-08-26T05:00:27.091608+00:00", "topic": "Major Depressive Disorder (MDD)", "slug": "major-depressive-disorder", "status": "SUCCESS", "http_status": 201, "error": null}
 {"timestamp": "2026-08-26T05:00:27.102881+00:00", "topic": "Perfectionism", "slug": "perfectionism", "status": "SUCCESS", "http_status": 201, "error": null}
 {"timestamp": "2026-08-26T05:00:27.117454+00:00", "topic": "Rumination", "slug": "rumination", "status": "SUCCESS", "http_status": 201, "error": null}
+{"timestamp": "2026-08-26T08:00:21.374619+00:00", "topic": "Academic Stress", "slug": "academic-stress", "status": "SKIPPED_DUPLICATE", "http_status": 409, "error": "Slug sudah dipakai: academic-stress"}
+{"timestamp": "2026-08-26T08:00:21.384909+00:00", "topic": "Anorexia Nervosa", "slug": "anorexia-nervosa", "status": "SKIPPED_DUPLICATE", "http_status": 409, "error": "Slug sudah dipakai: anorexia-nervosa"}
+{"timestamp": "2026-08-26T08:00:21.395440+00:00", "topic": "Burnout", "slug": "burnout", "status": "SKIPPED_DUPLICATE", "http_status": 409, "error": "Slug sudah dipakai: burnout"}
+{"timestamp": "2026-08-26T08:00:21.411650+00:00", "topic": "Fear of Missing Out (FOMO)", "slug": "fear-of-missing-out-fomo", "status": "SKIPPED_DUPLICATE", "http_status": 409, "error": "Slug sudah dipakai: fear-of-missing-out-fomo"}
+{"timestamp": "2026-08-26T08:00:21.424576+00:00", "topic": "Generalized Anxiety Disorder (GAD)", "slug": "generalized-anxiety-disorder", "status": "SKIPPED_DUPLICATE", "http_status": 409, "error": "Slug sudah dipakai: generalized-anxiety-disorder"}
+{"timestamp": "2026-08-26T08:00:21.439725+00:00", "topic": "Impostor Phenomenon", "slug": "impostor-phenomenon", "status": "SKIPPED_DUPLICATE", "http_status": 409, "error": "Slug sudah dipakai: impostor-phenomenon"}
+{"timestamp": "2026-08-26T08:00:21.451463+00:00", "topic": "Loneliness", "slug": "loneliness", "status": "SKIPPED_DUPLICATE", "http_status": 409, "error": "Slug sudah dipakai: loneliness"}
+{"timestamp": "2026-08-26T08:00:21.467322+00:00", "topic": "Major Depressive Disorder (MDD)", "slug": "major-depressive-disorder", "status": "SKIPPED_DUPLICATE", "http_status": 409, "error": "Slug sudah dipakai: major-depressive-disorder"}
+{"timestamp": "2026-08-26T08:00:21.483226+00:00", "topic": "Perfectionism", "slug": "perfectionism", "status": "SKIPPED_DUPLICATE", "http_status": 409, "error": "Slug sudah dipakai: perfectionism"}
+{"timestamp": "2026-08-26T08:00:21.501912+00:00", "topic": "Rumination", "slug": "rumination", "status": "SKIPPED_DUPLICATE", "http_status": 409, "error": "Slug sudah dipakai: rumination"}
