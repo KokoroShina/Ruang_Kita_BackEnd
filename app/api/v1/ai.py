@@ -9,11 +9,13 @@ from fastapi import APIRouter, HTTPException, status
 
 from app.core.dependencies import CurrentUser
 from app.schemas.ai import AITestRequest, AITestResponse, AttemptRead
+from app.services.ai.guardrails import SCOPE_REDIRECT_TEXT
 from app.services.ai.openrouter_client import OpenRouterAuthError
 from app.services.ai.router import (
     AIConfigurationError,
     AIGatewayError,
     CrisisDetectedError,
+    OffTopicDetectedError,
     generate_text,
 )
 
@@ -43,6 +45,14 @@ async def ai_test(payload: AITestRequest, current_user: CurrentUser) -> AITestRe
                 "Pesanmu mengandung indikasi yang butuh perhatian lebih. "
                 f"(terdeteksi pada: {exc.source})"
             ),
+            attempts=[],
+        )
+    except OffTopicDetectedError as exc:
+        # Di luar scope refleksi — tolak tanpa panggil LLM (hemat kuota)
+        return AITestResponse(
+            offtopic_detected=True,
+            response=SCOPE_REDIRECT_TEXT,
+            detail=f"Permintaan di luar scope refleksi. (pola: {exc.matched_pattern})",
             attempts=[],
         )
     except AIConfigurationError as exc:

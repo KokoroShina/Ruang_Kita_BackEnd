@@ -24,9 +24,11 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from app.db.session import AsyncSessionLocal
 from app.models.chat import ChatMessage, ChatSession, ChatSessionStatus
 from app.services.ai.guardrails import (
+    SCOPE_REDIRECT_TEXT,
     SUPPORT_REDIRECT_TEXT,
     apply_disclaimer,
     detect_crisis,
+    detect_offtopic,
 )
 from app.services.ai.prompts.chat_prompt import (
     MAX_HISTORY_MESSAGES,
@@ -37,6 +39,7 @@ from app.services.ai.router import (
     AIGatewayError,
     AttemptInfo,
     CrisisDetectedError,
+    OffTopicDetectedError,
     generate_text,
 )
 
@@ -90,6 +93,7 @@ class StreamStart:
     user_message: ChatMessage
     history: list[dict]
     input_crisis: bool
+    offtopic: bool = False  # scope rejection — balasan standar sudah tersimpan
     snippets: list[str] = field(default_factory=list)          # RAG Fase 1
     grounded_topics: list[str] = field(default_factory=list)   # RAG Fase 1
 
@@ -210,6 +214,24 @@ async def send_message(
             user_message=user_row, assistant_message=assistant_row, crisis_detected=True
         )
 
+    # ---- 2b. Off-topic INPUT: tolak tanpa panggil LLM (pesan user tetap aman) --
+    offtopic = detect_offtopic(content)
+    if offtopic.flagged:
+        logger.info("Off-topic chat ditolak: pattern=%r", offtopic.matched_pattern)
+        assistant_row = ChatMessage(
+            session_id=session.id,
+            sender_role="assistant",
+            content=SCOPE_REDIRECT_TEXT,
+        )
+        db.add(assistant_row)
+        session.last_message_at = now
+        await db.commit()
+        await db.refresh(user_row)
+        await db.refresh(assistant_row)
+        return SendResult(
+            user_message=user_row, assistant_message=assistant_row, crisis_detected=False
+        )
+
     await db.commit()  # pesan user aman sebelum panggil AI
     await db.refresh(user_row)
 
@@ -235,6 +257,21 @@ async def send_message(
             user_id=user_id,
             temperature=temperature,
             max_tokens=max_tokens,
+        )
+    except OffTopicDetectedError as exc:
+        # Fallback ketika bypass service-level (mis. n-gram lolos, marker lolos).
+        logger.info("Off-topic chat ditolak (gateway): pattern=%r", exc.matched_pattern)
+        assistant_row = ChatMessage(
+            session_id=session.id,
+            sender_role="assistant",
+            content=SCOPE_REDIRECT_TEXT,
+        )
+        db.add(assistant_row)
+        session.last_message_at = now
+        await db.commit()
+        await db.refresh(assistant_row)
+        return SendResult(
+            user_message=user_row, assistant_message=assistant_row, crisis_detected=False
         )
     except CrisisDetectedError as exc:
         session.crisis_flagged = True
@@ -292,6 +329,7 @@ async def begin_send(
         raise ChatSessionInactiveError()
 
     input_crisis = detect_crisis(content)
+    input_offtopic = detect_offtopic(content)
     user_row = ChatMessage(
         session_id=session.id,
         sender_role="user",
@@ -315,6 +353,20 @@ async def begin_send(
         await db.refresh(user_row)
         await db.refresh(canned)
         return StreamStart(session=session, user_message=user_row, history=[], input_crisis=True)
+
+    if input_offtopic.flagged:
+        logger.info("Off-topic chat ditolak (stream): pattern=%r", input_offtopic.matched_pattern)
+        canned = ChatMessage(
+            session_id=session.id,
+            sender_role="assistant",
+            content=SCOPE_REDIRECT_TEXT,
+        )
+        db.add(canned)
+        session.last_message_at = now
+        await db.commit()
+        await db.refresh(user_row)
+        await db.refresh(canned)
+        return StreamStart(session=session, user_message=user_row, history=[], input_crisis=False, offtopic=True)
 
     await db.commit()
     await db.refresh(user_row)
@@ -415,6 +467,19 @@ async def stream_reply_events(
         }
         return
 
+    if start.offtopic:
+        # Balasan scope sudah tersimpan oleh begin_send — tolak tanpa panggil LLM
+        yield {"event": "delta", "data": {"text": SCOPE_REDIRECT_TEXT}}
+        yield {
+            "event": "done",
+            "data": {
+                "crisis_detected": False,
+                "assistant_message_id": str(start.user_message.id),  # placeholder, diabaikan klien
+                "attempts": [],
+            },
+        }
+        return
+
     parts: list[str] = []
     done_payload: dict | None = None
     try:
@@ -455,6 +520,24 @@ async def stream_reply_events(
                 return
             elif kind == "done":
                 done_payload = payload
+    except OffTopicDetectedError as exc:
+        # N-gram/marker lolos di service-level tapi ketangkap gateway — tolak halus.
+        logger.info("Off-topic chat ditolak (gateway, stream): pattern=%r", exc.matched_pattern)
+        row_id = await _persist_assistant(
+            session_id=start.session.id,
+            content=SCOPE_REDIRECT_TEXT,
+            provider=None,
+        )
+        yield {"event": "delta", "data": {"text": SCOPE_REDIRECT_TEXT}}
+        yield {
+            "event": "done",
+            "data": {
+                "crisis_detected": False,
+                "assistant_message_id": row_id,
+                "attempts": [],
+            },
+        }
+        return
     except Exception:  # noqa: BLE001
         logger.exception("Streaming chat gagal")
         yield {

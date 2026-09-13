@@ -1,6 +1,17 @@
 from fastapi import APIRouter
 
-from app.api.v1 import account, ai, auth, chat, discover, health, journal, mood, topics
+from app.api.v1 import (
+    account,
+    ai,
+    auth,
+    chat,
+    discover,
+    health,
+    journal,
+    mood,
+    topics,
+    uploads,
+)
 
 api_router = APIRouter()
 api_router.include_router(health.router)
@@ -12,3 +23,4 @@ api_router.include_router(journal.router)
 api_router.include_router(mood.router)
 api_router.include_router(topics.router)
 api_router.include_router(discover.router)
+api_router.include_router(uploads.router)

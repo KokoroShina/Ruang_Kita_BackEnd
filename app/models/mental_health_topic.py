@@ -52,6 +52,12 @@ class MentalHealthTopic(UUIDPrimaryKeyMixin, TimestampMixin, Base):
 
     sources: Mapped[str | None] = mapped_column(Text)
 
+    # Cover topik — URL eksternal atau path upload lokal (konsisten konten)
+    image_url: Mapped[str | None] = mapped_column(String(500))
+
+    # Video penjelasan (opsional) — URL YouTube; di-embed di bawah konten topik
+    video_url: Mapped[str | None] = mapped_column(String(500))
+
     language: Mapped[str] = mapped_column(String(8), default="id", nullable=False)
     is_published: Mapped[bool] = mapped_column(Boolean, default=False, server_default=false())
     published_at: Mapped[datetime | None] = mapped_column(DateTimeMicro)

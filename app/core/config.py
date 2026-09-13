@@ -50,6 +50,18 @@ class Settings(BaseSettings):
     # Kosong = belum ada admin (endpoint admin akan selalu 403).
     ADMIN_EMAILS: list[str] = []
 
+    # ===== Upload gambar (konten & topik — hybrid URL/upload) =====
+    # Folder tempat gambar upload admin disimpan (relatif ke root backend).
+    # Path gambar tersimpan di kolom image_url sebagai /media/uploads/<file>.
+    MEDIA_DIR: str = "media"
+    UPLOAD_MAX_BYTES: int = 5 * 1024 * 1024  # 5 MB
+    # Ekstensi yang diizinkan + MIME wajib cocok (anti伪装 content-type)
+    UPLOAD_ALLOWED_TYPES: dict[str, str] = {
+        "image/jpeg": ".jpg",
+        "image/png": ".png",
+        "image/webp": ".webp",
+    }
+
     # ===== Importer konten massal (scripts/import_topics_bulk.py) =====
     # Kredensial akun admin yang dipakai skrip impor massal untuk login + POST
     # /admin/topics. Emailnya wajib terdaftar di ADMIN_EMAILS di atas.

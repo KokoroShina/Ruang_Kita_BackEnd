@@ -45,6 +45,9 @@ class ContentLibrary(UUIDPrimaryKeyMixin, TimestampMixin, Base):
     source_url: Mapped[str | None] = mapped_column(String(500))
     duration_minutes: Mapped[int | None] = mapped_column(SmallInteger)
 
+    # Thumbnail/cover — URL eksternal (mis. YouTube) atau path upload lokal
+    image_url: Mapped[str | None] = mapped_column(String(500))
+
     language: Mapped[str] = mapped_column(String(8), default="id", nullable=False)
     is_published: Mapped[bool] = mapped_column(Boolean, default=False, server_default=false())
     published_at: Mapped[datetime | None] = mapped_column(DateTimeMicro)

@@ -9,7 +9,7 @@ Dipakai fitur chatbot refleksi (Pahami) dan analisis jurnal (Kenali).
 services/ai/
   openrouter_client.py  # wrapper httpx.AsyncClient -> /chat/completions (error bertipe)
   router.py             # generate_text(): fallback antar model + guardrail hooks + logging
-  guardrails.py         # detect_crisis() + apply_disclaimer() [stub v1]
+  guardrails.py         # detect_crisis() v2 (normalisasi+compact+fuzzy+negasi) + apply_disclaimer()
   prompts/
     chat_prompt.py      # builder pesan multi-turn (pilar Pahami)
     journal_prompt.py   # builder prompt analisis jurnal one-shot (pilar Kenali)

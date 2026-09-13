@@ -15,8 +15,9 @@ class AttemptRead(BaseModel):
 
 class AITestResponse(BaseModel):
     crisis_detected: bool = False
+    offtopic_detected: bool = False
     response: str | None = None
     model_used: str | None = None
     attempts: list[AttemptRead] = []
     latency_ms: int | None = None
-    detail: str | None = None  # diisi saat crisis_detected / pesan khusus lainnya
+    detail: str | None = None  # diisi saat crisis/offtopic / pesan khusus lainnya

@@ -21,6 +21,11 @@ class ContentItemCreate(BaseModel):
     topics: list[str] = Field(default_factory=list, max_length=20)
     source_url: str | None = Field(default=None, max_length=500)
     duration_minutes: int | None = Field(default=None, ge=1, le=600)
+    image_url: str | None = Field(
+        default=None,
+        max_length=500,
+        description="URL gambar (mis. thumbnail YouTube) atau path upload lokal. Opsional.",
+    )
     language: str = Field(default="id", min_length=2, max_length=8)
     is_published: bool = False
 
@@ -33,6 +38,11 @@ class ContentItemUpdate(BaseModel):
     topics: list[str] | None = Field(default=None, max_length=20)
     source_url: str | None = Field(default=None, max_length=500)
     duration_minutes: int | None = Field(default=None, ge=1, le=600)
+    image_url: str | None = Field(
+        default=None,
+        max_length=500,
+        description="Kirim string kosong ('') untuk menghapus gambar.",
+    )
     language: str | None = Field(default=None, min_length=2, max_length=8)
     is_published: bool | None = None
 
@@ -49,6 +59,7 @@ class ContentItemRead(BaseModel):
     topics: list[str]
     source_url: str | None
     duration_minutes: int | None
+    image_url: str | None
     language: str
     is_published: bool
     published_at: datetime | None

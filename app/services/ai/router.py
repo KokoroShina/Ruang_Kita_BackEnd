@@ -2,10 +2,11 @@
 
 Alur generate_text():
     1. detect_crisis(INPUT)   -> flagged? log + raise CrisisDetectedError (jalur khusus)
-    2. Coba model default -> fallback berurutan saat 429/error (urutan dari .env)
+    2. detect_offtopic(INPUT) -> flagged? log + raise OffTopicDetectedError (chat saja)
+    3. Coba model default -> fallback berurutan saat 429/error (urutan dari .env)
        - AuthError (key invalid) : fail-fast, tidak di-fallback
-    3. detect_crisis(OUTPUT)  -> flagged? log + raise CrisisDetectedError
-    4. apply_disclaimer()     -> WAJIB sebelum konten dikembalikan
+    4. detect_crisis(OUTPUT)  -> flagged? log + raise CrisisDetectedError
+    5. apply_disclaimer()     -> WAJIB sebelum konten dikembalikan
 
 Setiap attempt (sukses maupun gagal) dicatat ke tabel ai_usage_log lewat
 session DB terpisah — logging tidak boleh mengganggu/meng-commit transaksi caller.
@@ -21,7 +22,11 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from app.core.config import settings
 from app.db.session import AsyncSessionLocal
 from app.models.ai_usage_log import AIUsageLog
-from app.services.ai.guardrails import apply_disclaimer, detect_crisis
+from app.services.ai.guardrails import (
+    apply_disclaimer,
+    detect_crisis,
+    detect_offtopic,
+)
 from app.services.ai.openrouter_client import (
     OpenRouterAuthError,
     OpenRouterError,
@@ -49,6 +54,14 @@ class CrisisDetectedError(Exception):
         self.source = source  # "input" | "output"
         self.matched_keyword = matched_keyword
         super().__init__(f"Crisis signal detected on {source}")
+
+
+class OffTopicDetectedError(Exception):
+    """Input di luar scope refleksi (chat) -> balasan SCOPE_REDIRECT_TEXT tanpa LLM."""
+
+    def __init__(self, matched_pattern: str | None = None) -> None:
+        self.matched_pattern = matched_pattern
+        super().__init__(f"Off-topic request detected: {matched_pattern!r}")
 
 
 @dataclass(slots=True)
@@ -121,7 +134,7 @@ async def generate_text(
     temperature: float | None = None,
     max_tokens: int | None = None,
 ) -> GatewayResult:
-    """Fungsi utama AI Gateway. Raise: CrisisDetectedError / AIConfigurationError / AIGatewayError."""
+    """Fungsi utama AI Gateway. Raise: CrisisDetectedError / OffTopicDetectedError / AIConfigurationError / AIGatewayError."""
     # ---- 1. Guardrail INPUT -------------------------------------------------
     crisis = detect_crisis(_last_user_text(messages))
     if crisis.flagged:
@@ -134,6 +147,20 @@ async def generate_text(
             user_id=user_id,
         )
         raise CrisisDetectedError(source="input", matched_keyword=crisis.matched_keyword)
+
+    # ---- 1b. Scope enforcement (chat saja; jurnal dianalisis normal) ---------
+    if endpoint_type == "chat":
+        offtopic = detect_offtopic(_last_user_text(messages))
+        if offtopic.flagged:
+            await _log_attempt(
+                endpoint_type=endpoint_type,
+                model_requested=settings.AI_MODEL_DEFAULT,
+                success=False,
+                error_type="offtopic_input_detected",
+                error_detail=f"pattern={offtopic.matched_pattern!r}",
+                user_id=user_id,
+            )
+            raise OffTopicDetectedError(matched_pattern=offtopic.matched_pattern)
 
     client = get_openrouter_client()
     attempts: list[AttemptInfo] = []
@@ -247,7 +274,8 @@ async def stream_text(
       ("error",  {"detail": str})                   — gagal total / terputus
 
     Fallback antar model HANYA sebelum token pertama keluar.
-    Raise CrisisDetectedError utk INPUT krisis (sebelum stream dibuka).
+    Raise CrisisDetectedError / OffTopicDetectedError utk INPUT krisis/offtopik
+    (sebelum stream dibuka).
     """
     crisis = detect_crisis(_last_user_text(messages))
     if crisis.flagged:
@@ -260,6 +288,19 @@ async def stream_text(
             user_id=user_id,
         )
         raise CrisisDetectedError(source="input", matched_keyword=crisis.matched_keyword)
+
+    if endpoint_type == "chat":
+        offtopic = detect_offtopic(_last_user_text(messages))
+        if offtopic.flagged:
+            await _log_attempt(
+                endpoint_type=endpoint_type,
+                model_requested=settings.AI_MODEL_DEFAULT,
+                success=False,
+                error_type="offtopic_input_detected",
+                error_detail=f"pattern={offtopic.matched_pattern!r}",
+                user_id=user_id,
+            )
+            raise OffTopicDetectedError(matched_pattern=offtopic.matched_pattern)
 
     client = get_openrouter_client()
     attempts: list[AttemptInfo] = []

@@ -77,6 +77,15 @@ def create_app() -> FastAPI:
 
     app.include_router(api_router, prefix=settings.API_V1_PREFIX)
 
+    # Serve gambar upload admin (hybrid URL/upload) — /media/uploads/<file>
+    from pathlib import Path
+
+    from fastapi.staticfiles import StaticFiles
+
+    media_dir = Path(settings.MEDIA_DIR)
+    media_dir.mkdir(parents=True, exist_ok=True)
+    app.mount("/media", StaticFiles(directory=str(media_dir)), name="media")
+
     @app.get("/", tags=["root"])
     async def root() -> dict[str, str]:
         return {
