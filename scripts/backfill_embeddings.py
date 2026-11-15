@@ -15,7 +15,7 @@ from sqlalchemy import select  # noqa: E402
 
 from app.core.config import settings  # noqa: E402
 from app.db.session import AsyncSessionLocal, engine  # noqa: E402
-from app.models.content_library import ContentLibrary  # noqa: E402
+from app.models.content_librar0y import ContentLibrary  # noqa: E402
 from app.models.mental_health_topic import MentalHealthTopic  # noqa: E402
 from app.services.ai import embeddings as emb  # noqa: E402
 
